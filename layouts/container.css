@@ -1,0 +1,8 @@
+.fx-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--fx-space-md);
+}
+
+.fx-container-sm { max-width: 640px; }
+.fx-container-md { max-width: 768px; }

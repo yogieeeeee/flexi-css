@@ -1,0 +1,25 @@
+.fx-form-group {
+  margin-bottom: var(--fx-space-md);
+}
+
+.fx-form-control {
+  padding: var(--fx-space-sm) var(--fx-space-md);
+  border: 2px solid #e2e8f0;
+  border-radius: var(--fx-radius-md);
+  transition: var(--fx-transition-smooth);
+}
+
+.fx-form-control:focus {
+  outline: none;
+  border-color: var(--fx-primary);
+  box-shadow: var(--fx-focus-ring);
+}
+
+.fx-form-error .fx-form-control {
+  border-color: var(--fx-danger);
+}
+
+.fx-error-message {
+  color: var(--fx-danger);
+  font-size: 0.875rem;
+}

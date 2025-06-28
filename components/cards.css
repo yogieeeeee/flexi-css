@@ -1,0 +1,18 @@
+.fx-card {
+  background: var(--fx-white);
+  border-radius: var(--fx-radius-lg);
+  padding: var(--fx-space-lg);
+  box-shadow: var(--fx-shadow-md);
+  transition: var(--fx-transition-smooth);
+}
+
+.fx-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--fx-shadow-lg);
+}
+
+.fx-card-header {
+  margin-bottom: var(--fx-space-md);
+  padding-bottom: var(--fx-space-md);
+  border-bottom: 1px solid #e2e8f0;
+}

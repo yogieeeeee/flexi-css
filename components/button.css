@@ -1,0 +1,33 @@
+.fx-btn {
+  padding: var(--fx-space-sm) var(--fx-space-md);
+  border: none;
+  border-radius: var(--fx-radius-md);
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--fx-transition-bounce);
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.fx-btn:focus {
+  outline: none;
+  box-shadow: var(--fx-focus-ring);
+}
+
+.fx-btn-primary {
+  background: var(--fx-primary);
+  color: var(--fx-white);
+  box-shadow: 0 4px 6px rgba(99, 102, 241, 0.3);
+}
+
+.fx-btn-primary:hover {
+  background: var(--fx-primary-dark);
+  transform: translateY(-3px);
+}
+
+.fx-btn-outline:hover {
+  background: var(--fx-primary);
+  color: var(--fx-white);
+  transform: translateY(-2px);
+}

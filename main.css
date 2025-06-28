@@ -1,0 +1,66 @@
+/* ===== FLEXICSS FRAMEWORK ===== */
+@import url('core/variables.css');
+@import url('core/reset.css');
+@import url('core/utilities.css');
+@import url('layouts/container.css');
+@import url('layouts/grid.css');
+@import url('components/buttons.css');
+@import url('components/cards.css');
+@import url('components/badges.css');
+@import url('components/alerts.css');
+@import url('components/forms.css');
+
+/* Responsive */
+@media (max-width: var(--fx-breakpoint-md)) {
+  .fx-container {
+    padding: 0 var(--fx-space-sm);
+  }
+
+  .fx-grid,
+  .fx-grid-cols-2,
+  .fx-grid-cols-3 {
+    grid-template-columns: 1fr;
+  }
+
+  .fx-col-span-2 {
+    grid-column: span 1;
+  }
+}
+
+/* Dark Mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --fx-light: #0f172a;
+    --fx-dark: #f8fafc;
+  }
+
+  body {
+    background-color: #0b1120;
+    color: var(--fx-light);
+  }
+
+  .fx-card,
+  .fx-form-control {
+    background-color: #1e293b;
+    color: #e2e8f0;
+  }
+
+  .fx-form-control {
+    border-color: #334155;
+  }
+}
+
+/* Documentation Styles */
+.fx-doc-section {
+  margin-bottom: var(--fx-space-2xl);
+  padding-bottom: var(--fx-space-xl);
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.fx-code-block {
+  background: #1e293b;
+  border-radius: var(--fx-radius-md);
+  padding: var(--fx-space-md);
+  font-family: var(--fx-font-mono);
+  color: #cbd5e1;
+}

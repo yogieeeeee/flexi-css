@@ -1,0 +1,17 @@
+.fx-alert {
+  padding: var(--fx-space-md);
+  border-radius: var(--fx-radius-md);
+  margin-bottom: var(--fx-space-md);
+  position: relative;
+  padding-left: calc(var(--fx-space-md) + 8px);
+  box-shadow: var(--fx-shadow-sm);
+}
+
+.fx-alert-success {
+  background: var(--fx-success-light);
+  color: var(--fx-success-dark);
+}
+
+.fx-alert-success::before {
+  background: var(--fx-success);
+}

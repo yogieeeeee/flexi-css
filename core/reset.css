@@ -1,0 +1,12 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--fx-font-sans);
+  color: var(--fx-dark);
+  line-height: 1.6;
+  background-color: var(--fx-light);
+}
