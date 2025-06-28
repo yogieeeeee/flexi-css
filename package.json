@@ -1,0 +1,19 @@
+{
+  "name": "flexi-css",
+  "version": "1.0.0",
+  "main": "main.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yogieeeeee/flexi-css.git"
+  },
+  "author": "yogie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yogieeeeee/flexi-css/issues"
+  },
+  "homepage": "https://github.com/yogieeeeee/flexi-css#readme",
+  "description": ""
+}
